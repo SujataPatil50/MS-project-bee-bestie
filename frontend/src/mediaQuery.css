@@ -1,0 +1,100 @@
+@media (max-width: 1920px) and (min-width: 1367px){}
+
+@media only screen and (max-width: 1199px){}
+
+@media only screen and (min-width: 900px) {
+    #frame .content {width: calc(100% - 340px);}
+}
+
+@media only screen and (max-width: 991px){
+    .profileDiv .circle{left: 280px;}
+    .profileDiv .p-image{right: 307px;}
+
+    .main-card{width: 80%;height:80%;}
+}
+
+@media only screen and (max-width: 735px) {
+    /* Chat module */
+    #frame {width: 100%;height: 100vh;}
+    #frame #sidepanel {width: 58px;min-width: 58px;}
+    #frame #sidepanel #profile {width: 100%;margin: 0 auto;padding: 5px 0 0 0;background: #DAD490;}
+    #frame #sidepanel #profile .wrap {height: 55px;}
+    #frame #sidepanel #profile .wrap img {width: 40px;margin-left: 4px;}
+    #frame #sidepanel #profile .wrap p {display: none;}
+    #frame #sidepanel #profile .wrap i.expand-button {display: none;}
+    #frame #sidepanel #profile .wrap #status-options {width: 58px;margin-top: 57px;}
+    #frame #sidepanel #profile .wrap #status-options.active {margin-top: 62px;}
+    #frame #sidepanel #profile .wrap #status-options:before {margin-left: 23px;}
+    #frame #sidepanel #profile .wrap #status-options ul li {padding: 15px 0 35px 22px;}
+    #frame #sidepanel #profile .wrap #status-options ul li span.status-circle {width: 14px;height: 14px;}
+    #frame #sidepanel #profile .wrap #status-options ul li span.status-circle:before {height: 18px;width: 18px;}
+    #frame #sidepanel #profile .wrap #status-options ul li p{display: none;}
+    #frame #sidepanel #search{display: none;}
+    #frame #sidepanel #contacts {height: calc(100% - 149px);overflow-y: scroll;overflow-x: hidden;}
+    #frame #sidepanel #contacts::-webkit-scrollbar {display: none;}
+    #frame #sidepanel #contacts ul li.contact {padding: 6px 0 46px 8px;}
+    #frame #sidepanel #contacts ul li.contact .wrap {width: 100%;}
+    #frame #sidepanel #contacts ul li.contact .wrap img {margin-right: 0px;}
+    #frame #sidepanel #contacts ul li.contact .wrap .meta {display: none;}
+    #frame #sidepanel #bottom-bar button {float: none;width: 100%;padding: 15px 0;}
+    #frame #sidepanel #bottom-bar button:nth-child(1) {border-right: none;border-bottom: 1px solid #2c3e50;}
+    #frame #sidepanel #bottom-bar button i {font-size: 1.3em;}
+    #frame #sidepanel #bottom-bar button span {display: none;}
+    #frame .content {width: calc(100% - 58px);min-width: 300px !important;}
+    /* #frame .content .message-input .wrap button {padding: 16px 0;} */
+    #frame .content .message-input .wrap .attachment {margin-top: 17px;right: 65px;}
+    #frame .content .message-input .wrap input {padding: 15px 32px 16px 8px;}
+    #frame .content .messages ul li p {max-width: 300px;}
+    #frame .content .messages {max-height: calc(100% - 105px);}
+}
+
+@media only screen and (max-width: 767px){
+
+    .card_container{width:100%;}
+    .profileDiv .p-image{right: 240px;}
+    .avatar-detail h2{font-size: 20px;}
+    article.row div {min-width:300px;width:90%;margin:0 5%;text-align:center;display:block;}
+    #some-other-box h3 {text-align:center;}
+    #idea-one img, #idea-two img, #idea-three img {position:relative;margin:auto;left:inherit;bottom:inherit;}
+    #idea-two {display:-webkit-box;display:-moz-box;display:box;-webkit-box-orient:vertical;-moz-box-orient:vertical;box-orient:vertical;}
+    #idea-two div:first-of-type {-webkit-box-ordinal-group:2;-moz-box-ordinal-group:2;box-ordinal-group:2;} 
+
+}
+
+@media screen and (max-width: 600px) {
+    .avatar{display: none;}
+    table {border: 0;}
+    table caption {font-size: 1.3em;}
+    table thead {border: none;clip: rect(0 0 0 0);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}
+    table tr {border-bottom: 3px solid #ddd;display: block;margin-bottom: .625em;}
+    table td {border-bottom: 1px solid #ddd;display: block;font-size: .8em;text-align: right;}
+    table td::before {content: attr(data-label);float: left;font-weight: bold;text-transform: uppercase;}
+    table td:last-child {border-bottom: 0;} 
+}
+
+@media only screen and (max-width: 479px){
+    .welcomePage .btn_green{padding: 0 35px; font-size:16px;}
+    .profileDiv .circle{left: 60px;}
+    .profileDiv .p-image{right: 80px;}
+
+    .assesmentQA .HAquestion{width: 100%;}
+    .hexagon-container{display: flex;justify-content: center;align-items: center;flex-direction: column;padding: 0;margin: 0;}
+    .hiddenHexagon{display: none;}
+
+    .hexagon:nth-child(8n + 5),
+    .hexagon:nth-child(8n + 6),
+    .hexagon:nth-child(8n + 7),
+    .hexagon:nth-child(8n + 8){margin:42px auto;}
+
+    .healthDetailCard{flex-direction:column !important;}
+    .healthDetailCard h4{font-size: 20px;}
+    .healthDetailCard .healthDetailImage{ margin:20px auto 0; border-radius:.75rem ; -webkit-border-radius:.75rem ; -moz-border-radius:.75rem ; -ms-border-radius:.75rem ; -o-border-radius:.75rem ; }
+
+    .counseltPara p{font-size: 16px;}
+    .counseltPara p.answer{font-size: 16px;}
+    .counseltContact p{font-size: 12px;}
+
+    .main-card{width: 80%;height: 50%;right: 24px;bottom: 50px;}
+}
+
+@media screen and (max-width: 360px) {}
