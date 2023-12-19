@@ -63,7 +63,7 @@ function ForgotPassword() {
 
                         {!linkSent && (
                             <>
-                                <p className="my-8 font-semibold text-center">We will send a password reset link to your email Id</p>
+                                {/* <p className="my-8 font-semibold text-center">We will send a password reset link to your email Id</p> */}
                                 <form onSubmit={formik.handleSubmit}>
                                     <div className="mb-4">
                                         <div className={`form-control w-full mt-4 ${formik.errors.email && formik.touched.email ? 'has-error' : ''}`}>
@@ -87,7 +87,7 @@ function ForgotPassword() {
                                     </div>
 
                                     <button type="submit" className={`btn mt-2 w-full btn_green ${formik.isSubmitting ? 'loading' : ''}`}>
-                                        Send Reset Link
+                                        Reset Passowrd
                                     </button>
                                     <div className="text-center mt-4">
                                         Don't have an account yet?{' '}
